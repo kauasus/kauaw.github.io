@@ -1,0 +1,100 @@
+h1{
+    margin-left: 5%;
+}
+h2{
+padding-left:10%;
+}
+h3{
+padding-left:10%;
+
+}
+h5{
+    text-align: center;
+}
+#button{
+    display: flex;
+    justify-content: center;
+}
+button{
+
+background-color:transparent;
+border: none;
+}
+button:hover{
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+h4{
+text-align: center;
+margin-top:15%;
+border: 1px solid black;
+border-right: none;
+border-left: none;
+border-bottom: none;
+}
+p{
+margin-left:10%;
+margin-right: 20%;
+
+}
+
+#mn{
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+img{
+    float: right;
+    margin: 10% 5% -50% 0;
+    padding: 0;
+    border: 4px double black;
+    border-radius: 100%;
+}
+form{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+img:hover{
+    transform: scale(1.6);
+}
+
+body{
+    background: linear-gradient(to bottom,  #FF1493,#FFC0CB);
+}
+button {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+@font-face{
+    font-family: myFristFont;
+    src:url(comic.ttf)
+}
+h1{
+    font-family: myFristFont;
+}
+@font-face {
+    font-family: dento;
+    src: url(Cheeky\ Rabbit.ttf);
+}
+
+button{
+  
+    font-family: dento;
+    margin-top: -1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:transparent;
+    border: none;
+    
+    
+}
+button:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
